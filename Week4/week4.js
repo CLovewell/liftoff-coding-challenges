@@ -1,5 +1,6 @@
 function longestWord(sen) {
-  let wordArray = sen.trim().split(/[\W|_]+/);
+  let wordArray = sen.replaceAll(/[\W|_]+/g, " ")
+    .trim().split(" ");
   let lengthArray = wordArray.map(x => x.length);
   let maxLength = Math.max(...lengthArray);
   return wordArray[lengthArray.indexOf(maxLength)];

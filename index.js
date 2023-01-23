@@ -6,4 +6,4 @@ const week4 = require("./Week4/week4.js");
 console.log(week1.triangleArea(4, 8));
 console.log(week2.minMax([45, -90, 31, 128]));
 console.log(week3.firstReverse("palindrome"));
-console.log(week4.longestWord("Which word ___&*@%0123456789$*&Q%__ in this sentence     is longest?"));
+console.log(week4.longestWord("_Which word __ in this sentence     is longest?_"));
